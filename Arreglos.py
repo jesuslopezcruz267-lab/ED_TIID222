@@ -33,3 +33,25 @@ print(fruta)
 
 fruta.remove('Manzana')
 print(fruta)
+
+arreglo = []
+
+print(arreglo)
+
+n = int(input('Ingrese el tamaño del arreglo: '))
+print(n)
+
+
+for i in range(n):
+    dato = int(input('Ingrese un numero'))
+    arreglo.append(dato)
+
+print('El arreglo es: ', arreglo)
+
+
+n = int(input('Ingrese el tamaño del arreglo: '))
+
+arreglo = [0] * n
+for i in range(n):
+    dato = int(input('Ingrese un numero: '))
+    arreglo[i] #
